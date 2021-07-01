@@ -1,0 +1,136 @@
+{
+  "uid" : "395a402a073945c8",
+  "name" : "test_step_demo[pytest]",
+  "fullName" : "test_baidudemo#test_step_demo",
+  "historyId" : "b5728ab098ee84c074c2c7c4b84b366d",
+  "time" : {
+    "start" : 1624415298312,
+    "stop" : 1624415306441,
+    "duration" : 8129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开百度网页",
+      "time" : {
+        "start" : 1624415298312,
+        "stop" : 1624415301676,
+        "duration" : 3364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入关键词pytest",
+      "time" : {
+        "start" : 1624415301677,
+        "stop" : 1624415305910,
+        "duration" : 4233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "保存图片",
+      "time" : {
+        "start" : 1624415305911,
+        "stop" : 1624415306327,
+        "duration" : 416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63c2f6aa632e0077",
+        "name" : "1624415305.910605",
+        "source" : "63c2f6aa632e0077.png",
+        "type" : "image/png",
+        "size" : 808542
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1624415306327,
+        "stop" : 1624415306440,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "host",
+    "value" : "xiaozhangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "31158-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "'pytest'"
+  } ],
+  "links" : [ {
+    "name" : "百度",
+    "url" : "https://www.baidu.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "395a402a073945c8.json",
+  "parameterValues" : [ "'pytest'" ]
+}

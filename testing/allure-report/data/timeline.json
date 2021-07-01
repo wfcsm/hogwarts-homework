@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "xiaozhangdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "31158-MainThread",
+      "children" : [ {
+        "name" : "test_step_demo[pytest]",
+        "uid" : "395a402a073945c8",
+        "parentUid" : "21771059d77b472322447a62a19bc70e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624415298312,
+          "stop" : 1624415306441,
+          "duration" : 8129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'pytest'" ]
+      }, {
+        "name" : "test_step_demo[unittest]",
+        "uid" : "f0871bd7506cb417",
+        "parentUid" : "21771059d77b472322447a62a19bc70e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624415306447,
+          "stop" : 1624415314566,
+          "duration" : 8119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'unittest'" ]
+      }, {
+        "name" : "test_step_demo[allure]",
+        "uid" : "ec5ed230de8e2f34",
+        "parentUid" : "21771059d77b472322447a62a19bc70e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624415289384,
+          "stop" : 1624415298307,
+          "duration" : 8923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'allure'" ]
+      } ],
+      "uid" : "21771059d77b472322447a62a19bc70e"
+    } ],
+    "uid" : "a8db7e425cb079b96ba11264e90e1ef3"
+  } ]
+}

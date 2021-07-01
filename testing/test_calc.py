@@ -1,7 +1,4 @@
-"""
-__author__ = 'hogwarts_xixi'
-__time__ = '2021/6/17 8:12 下午'
-"""
+
 # 被测方法
 def add(a,b):
     return a+b
